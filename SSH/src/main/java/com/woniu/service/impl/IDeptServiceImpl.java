@@ -3,10 +3,12 @@ package com.woniu.service.impl;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.woniu.pojo.Dept;
 import com.woniu.service.IDeptService;
 @Service
+@Transactional
 public class IDeptServiceImpl implements IDeptService {
 
 	@Override
