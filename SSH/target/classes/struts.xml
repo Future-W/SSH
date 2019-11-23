@@ -1,0 +1,8 @@
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts" value="true"></constant>
+	<package name="defaule"extends="struts-default" strict-method-invocation="false">
+	</package>
+</struts>
